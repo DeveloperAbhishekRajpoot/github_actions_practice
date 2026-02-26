@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
     inputs:
       python_version:
-        description: Python version to use
+        description: "Python version to use"
         required: true
         default: "3.11"
       pytest_args:
-        description: Extra pytest arguments (example: -q tests)
+        description: "Extra pytest arguments (example: -q tests)"
         required: true
         default: "-q"
 
